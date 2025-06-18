@@ -78,13 +78,6 @@ const users = [
 // console.log("3::", userName);
 
 
-// const isAuthenticated = false; // Boolean
-// const lastName = null;
-// const firstName = undefined;
-// const userData = {
-//   firstName: "Hashan",
-//   lastName: "Shalitha",
-//   age: 29,
 // };
 // // Arrays
 // const fruits = ["banana", "apple", "guava"]; // String Array
