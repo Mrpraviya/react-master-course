@@ -1,5 +1,7 @@
-## 1. Basic Git Commands
+--Lecture Material...
 
+## 1. Basic Git Commands 
+ 
 Git is a distributed version control system that helps you track and manage changes to your code. Follow these steps to set up a Git repository and push your code to a remote service like GitHub.
 
 ### 1. Initialize a Git Repository
