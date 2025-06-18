@@ -1,7 +1,7 @@
 // Session 03 - JavaScript Scopes
 
 var isConditional = true;
-var message2 = "I'm message 2";
+var message2 = "I'm Trump";
 
 // Global Scope
 
@@ -10,15 +10,15 @@ var message2 = "I'm message 2";
     let a = 10;
     const b = 20;
     var c = 30;
-    // console.log("1::", a, b, c);
+    // console.log("1: ", a, b, c);
 }
 
-// console.log("2::", a, b, c);
-// console.log("2::", c);
+// console.log("2: ", a, b, c);
+// console.log("2: ", c);
 
 // Function Block Scope
 function myFunction() {
-    let myVariable = 5000;
+    let myVariable = 1000;
     return myVariable;
     // console.log("1:", myVariable);
 }
@@ -30,18 +30,20 @@ function myFunction() {
 // Conditional Block Scope
 if(isConditional === true) {
     let message1 = "I'm blocked scoped message";
-    var message2 = "I'm redeclared var variable";
+    var message02 = "I'm redeclared var variable";
     // console.log("2:", message1, message2);
 }
 
-// console.log("3:", message2);
+//  console.log("3:", message2);
+//  console.log("4:", message02);
 
 
 
-let iF = 100;
+
+let iF = 300;
 
 // Automatic declaration
-x = 200;
+x = 400;
 
 // console.log(typeof x);
 
@@ -50,7 +52,9 @@ x = 200;
 function addNumbers(a, b) {
     a = Number(a);
     b = Number(b);
-    return a + b;
+    c = a + b; // Implicit global variable declaration
+    // return a + b;
+    return c;
 }
 
 // console.log("1::", addNumbers(1, 4));
