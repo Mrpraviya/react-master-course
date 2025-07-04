@@ -24,17 +24,17 @@
     - How it works
 
     function fetchData(callback) {
-    setTimeout(() => {
-    console.log("Data fetched");
-    callback("This is the data");
-    }, 2000);
-   }
+        setTimeout(() => {
+                console.log("Data fetched");
+                callback("This is the data");
+                }, 2000);
+            }
 
    function handleData(data) {
-   console.log("Received:", data);
-   }
+       console.log("Received:", data);
+       }
 
-   fetchData(handleData);
+    fetchData(handleData);
 
    - fetchData() starts an async operation (simulated with setTimeout).
 
@@ -45,12 +45,12 @@
 5. The event loop is a key component of JavaScript's concurrency model. It allows non-blocking, asynchronous execution, enabling JavaScript (which is single-threaded) to handle multiple tasks like I/O operations, timers, and user interactions smoothly.
 
 6. function delayedGreeting(name) {
-  function greet() {
-    console.log(`Hello, ${name}!`);
-  }
+    function greet() {
+        console.log(`Hello, ${name}!`);
+        }
 
   setTimeout(() => greet(), 2000); 
-}
+  }
 
 delayedGreeting("Sandeeptha");
 
